@@ -1,8 +1,8 @@
 # Basic
 title: Paradise`s Blog
-subtitle: 身处低谷的人看谁都像救赎
+subtitle: 
 welcome_message: 
-description:  
+description: 身处低谷的人看谁都像救赎 
 creator: <a href="https://github.com/7emotions">@7emotions</a>
 
 url: "https://github.com/7emotions"
@@ -17,7 +17,7 @@ cover_color: red
 
 # The blog button should not be removed.
 blog_button:
-    title:  
+    title: Blog
     description: Visit blog
 
 # Navigation buttons in the front page.
