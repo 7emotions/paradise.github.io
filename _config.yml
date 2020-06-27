@@ -17,12 +17,12 @@ cover_color: red
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
+    title:  
     description: Visit blog
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    - {title: iXinian, description: iXinian Community, url: 'https://community.ixinian.com/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
