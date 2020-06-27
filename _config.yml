@@ -1,11 +1,11 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+title: Paradise`s Blog
+subtitle: 身处低谷的人看谁都像救赎
+welcome_message: 
+description:  
+creator: <a href="https://github.com/7emotions">@7emotions</a>
 
-url: "http://vno.onevcat.com"
+url: "https://github.com/7emotions"
 
 permalink: /:year/:month/:title/
 
@@ -37,11 +37,11 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    # weibo: onevcat
+    github: https://github.com/7emotions
+    # twitter: onevcat
+    # gplus: 107108267983477358170
+    mail: paradise_c@qq.com
 
 # Google Analytics
 ga:
