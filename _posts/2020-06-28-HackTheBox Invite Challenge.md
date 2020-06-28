@@ -1,5 +1,5 @@
 ### 前言
-打 XCTF 的时候场景不能创建，于是@Xinian 给我了个 [HackTheBox](https://www.hackthebox.eu/)  
+打 XCTF 的时候场景不能创建，于是[@Xinian](https://community.ixinian.com/u/Xinian) 给我了个 [HackTheBox](https://www.hackthebox.eu/)  
 ![image.png](https://i.loli.net/2020/04/12/iQ1YFbsLGjpH4e7.png)
 找了半天，在最下面找到了Join
 ![image.png](https://i.loli.net/2020/04/12/UKQbia5lgjp4hRs.png)
