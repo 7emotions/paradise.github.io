@@ -34,10 +34,7 @@ paginate_path: "page/:num/"
 comment:
     # disqus: vno-jekyll
     # duoshuo:
-    site.comment.owner : 7emotions
-    site.comment.repo : CommentRepo
-    site.comment.client_id : aa09452b04c51c65f092
-    site.comment.client_secret : 9ed0266d2057126b391794c3d11911c538b849eb
+    gitment: True
     
 # Social
 social:
