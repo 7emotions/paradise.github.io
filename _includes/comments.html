@@ -32,7 +32,22 @@
         })();
     </script>
   {% endif %}
-  
-  
+
+  {% elsif site.comment.owner and site.comment.repo and site.comment.client_id and site.comment.client_secret %}
+    <div id="container"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+        var gitment = new Gitment({
+            id: window.location.pathname,
+            owner: '{{ site.comment.owner }}',
+            repo: '{{ site.comment.repo }}',
+            oauth: {
+                client_id: '{{ site.comment.client_id }}',
+                client_secret: '{{ site.comment.client_secret }}',
+            },})
+        gitment.render('container')
+    </script>
+  {% endif %}
   
 </section>
