@@ -38,7 +38,7 @@
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
         var gitment = new Gitment({
-            id: '{{ page.title }}',
+            id:  md5(window.location.pathname),
             owner: '7emotions',
             repo: 'CommentRepo',
             oauth: {
