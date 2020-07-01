@@ -37,8 +37,17 @@
     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
+        var title_length ='{{ page.title }}'.length                 
+        if (title_length < 50 && '{{ page.title }}'.indexOf(",")== -1)
+        {
+            var tid= '{{ page.title }}'
+        }
+        else
+        {
+            var tid='{{ page.date }}'             
+        }
         var gitment = new Gitment({
-            id:  md5(window.location.pathname),
+            id:  tid,
             owner: '7emotions',
             repo: 'CommentRepo',
             oauth: {
