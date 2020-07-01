@@ -39,11 +39,11 @@
     <script>
         var gitment = new Gitment({
             id: window.location.pathname,
-            owner: '{{ site.comment.owner }}',
-            repo: '{{ site.comment.repo }}',
+            owner: '7emotions',
+            repo: 'CommentRepo',
             oauth: {
-                client_id: '{{ site.comment.client_id }}',
-                client_secret: '{{ site.comment.client_secret }}',
+                client_id: 'aa09452b04c51c65f092',
+                client_secret: '9ed0266d2057126b391794c3d11911c538b849eb',
             },})
         gitment.render('container')
     </script>
