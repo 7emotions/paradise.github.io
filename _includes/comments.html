@@ -1,25 +1,22 @@
 <section class="post-comments">
-    <div id="container"></div>
-    <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-    <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
+    <br>
+    <h4 align="left">「游客及非Github用户留言」：</h4>    
+    <div id="comments"></div>
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库:-->
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     <script>
-        var title_length ='{{ page.title }}'.length                 
-        if (title_length < 50 && '{{ page.title }}'.indexOf(",")== -1)
-        {
-            var tid= '{{ page.title }}'
-        }
-        else
-        {
-            var tid='{{ page.date }}'             
-        }
-        var gitment = new Gitment({
-            id:  tid,
-            owner: '7emotions',
-            repo: 'CommentRepo',
-            oauth: {
-                client_id: 'aa09452b04c51c65f092',
-                client_secret: '9ed0266d2057126b391794c3d11911c538b849eb',
-            }})
-        gitment.render('container')
+         new Valine({
+            av: AV,
+            el: '#comments',
+            app_id: '[[ site.valine.appid ]]',
+            app_key: '[[ site.valine.appkey ]]',
+            placeholder: '[[ site.valine.placeholder ]]',
+            notify: '[[ site.valine.notify ]]',
+            verify: '[[ site.valine.verify ]]',
+        recordIP: 'true',
+            enableQQ: 'true',
+        })
     </script>
 </section>
