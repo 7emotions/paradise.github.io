@@ -17,13 +17,13 @@ cover_color: red
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
+    title: My Blog
     description: Visit blog
 
 # Navigation buttons in the front page.
 nav:
-    - {title: iXinian, description: iXinian Community, url: 'https://community.ixinian.com/'}
-    - {title: Eyrunq, description: Eyrunq`s Blog, url: 'https://qnurye.github.io/'}
+    - {title: iXinian Community, description: iXinian Community, url: 'https://community.ixinian.com/'}
+    - {title: Eyrunq`s Blog, description: Eyrunq`s Blog, url: 'https://qnurye.github.io/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
