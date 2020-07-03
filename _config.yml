@@ -23,6 +23,7 @@ blog_button:
 # Navigation buttons in the front page.
 nav:
     - {title: iXinian, description: iXinian Community, url: 'https://community.ixinian.com/'}
+    - {title: Eyrunq, description: Eyrunq`s Blog, url: 'https://qnurye.github.io/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
