@@ -24,6 +24,7 @@ blog_button:
 nav:
     - {title: iXinian Community, description: iXinian Community, url: 'https://community.ixinian.com/'}
     - {title: Eyrunq`s Blog, description: Eyrunq`s Blog, url: 'https://qnurye.github.io/'}
+    - {title: Attack View, description: Live Map, url: '/attackview.html'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
