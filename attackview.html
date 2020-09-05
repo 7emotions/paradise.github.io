@@ -4,6 +4,12 @@
 	<title>Attact Real-Time Map</title>
 </head>
 <body>
-<iframe width="100%" height="100%" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0">
+	<script type="text/javascript">
+		var winWidth=parseInt(document.documentElement.clientWidth);
+		var winHeight=parseInt(document.documentElement.clientHeight);
+		document.getElementById("iframe").width=winWidth + 'px';
+		document.getElementById("iframe").height=winHeight + 'px';
+	</script>
+<iframe id="iframe" width="100%" height="100%" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0">
 </body>
 </html>
